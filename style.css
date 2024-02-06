@@ -19,6 +19,7 @@ p {
   margin: 4px 2px;
   cursor: pointer;	
 }
+.button2 {background-color: #008CBA;} /* Blue */
 body { 
 background-image: url("shootingstar.gif");
 	<button>Default Button</button>
