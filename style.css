@@ -30,7 +30,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: lightblue;
 }
 body { 
 background-image: url("shootingstar.gif");
