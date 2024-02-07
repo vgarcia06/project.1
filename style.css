@@ -4,9 +4,13 @@ h1 {
 	 font-family: "Georgia", Georgia, serif;
 }
 h2{
-	background-color:lightblue;
+	background-color:lemonchiffon;
+	background-color: lavender;
+    animation-name: example;
+    animation-duration:8s;
+	animation-iteration-count: infinite;
 	text-align:center;
-	font-size: 13px;
+	font-size: 19px;
 }
 p {
 	font-size: 18px;
@@ -49,8 +53,17 @@ background-image: url("shootingstar.gif");
 
 div{
   border:15px solid lavender;
+  
 }
 
+@keyframes example{
+   0%  {background-color: lightsteelblue;}
+  20%  {background-color: pink;}
+  40%  {background-color: deepskyblue;}
+  60% {background-color: darkseagreen;}
+  80% {background-color: coral;}
+  100% {background-color: lightsteelblue;}
+}
 img{
 	display: block;
 	margin: auto;
