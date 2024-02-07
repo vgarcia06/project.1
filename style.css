@@ -13,7 +13,7 @@ p {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
@@ -26,13 +26,13 @@ a:link, a:visited {
   color: white;
   padding: 14px 25px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
 }
 
 a:hover, a:active {
   background-color: lightblue;
-	color: black;
+  color: black;
 }
 body { 
 background-image: url("shootingstar.gif");
