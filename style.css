@@ -42,4 +42,7 @@ div{
   border:15px solid lavender;
 }
 
- 
+img{
+	display: block;
+	margin: auto;
+}
